@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Set the target JavaScript version (you can use "esnext" for modern code)
+    "module": "esnext", // Module system to use
+    "jsx": "react-native", // Enable JSX for React Native
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "strict": true, // Enable strict type checking (optional but recommended)
+    "esModuleInterop": true, // Enable esModuleInterop to allow for imports of CommonJS modules
+    "skipLibCheck": true, // Skip library checking for faster compilation (optional)
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "extends": "expo/tsconfig.base"
+}
